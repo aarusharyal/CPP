@@ -25,6 +25,5 @@ int main() {
             cout << diff[i][j] << " ";
         cout << endl;
     }
-
     return 0;
 }
