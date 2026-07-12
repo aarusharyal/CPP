@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-extern int num=10;
+extern int num;
 int main() {
     cout << "Value of num = " << num << endl;
     return 0;
