@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// Program to Print Floyd's Triangle
 int main()
 {
 	int i,j,num=1;
