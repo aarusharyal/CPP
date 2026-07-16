@@ -6,6 +6,7 @@ int main()
 	
 	cout<<"Enter the number";
 	cin>>num;
+	// Logic for finding the sum
 	for(i=1;i<=num;i++)
 	{
 		sum=sum+i;
