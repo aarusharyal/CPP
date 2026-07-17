@@ -20,6 +20,7 @@ int main() {
             diff[i][j] = a[i][j] - b[i][j];
 
     cout << "Difference matrix:\n";
+    // Logic for subtracting two matrix
     for(int i=0;i<row;i++){
         for(int j=0;j<column;j++)
             cout << diff[i][j] << " ";
