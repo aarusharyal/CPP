@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 #define SIZE 3
 
 void join(int A[SIZE][SIZE], int B[SIZE][SIZE]) {
     printf("Join (OR) of matrices:\n");
-
+	// For or operation between matrices
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
             printf("%d ", A[i][j] | B[i][j]);
@@ -15,7 +14,7 @@ void join(int A[SIZE][SIZE], int B[SIZE][SIZE]) {
 
 void product(int A[SIZE][SIZE], int B[SIZE][SIZE]) {
     printf("Boolean Product of matrices:\n");
-
+	// For boolean product of the matrices
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
             int result = 0;
@@ -36,13 +35,12 @@ int main() {
         {0, 1, 1},
         {1, 1, 0}
     };
-
     int B[SIZE][SIZE] = {
-        {0, 1, 0},
-        {1, 0, 1},
+        {1, 0, 0},
+        {1, 1, 1},
         {0, 1, 1}
     };
-
+	// Calling the two functions
     join(A, B);
     product(A, B);
 
