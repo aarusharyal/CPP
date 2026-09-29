@@ -1,18 +1,20 @@
 # C++ Learning Journal
 
-This repository documents my journey learning C++ and contains code examples, experiments, and notes as I explore the language.
+This repository is my personal learning log for C++ programming. It contains small code examples, experiments, notes, and practice projects as I work through the language and build my understanding of modern C++.
 
 ## Contents
 
-- `examples/` - sample programs demonstrating C++ concepts
-- `notes/` - brief write-ups on topics I am studying
-- `projects/` - small projects and practice exercises
+- `examples/` - short programs demonstrating core C++ concepts
+- `notes/` - study notes and explanations of topics I am learning
+- `projects/` - small exercises and mini-projects to practice implementation
 
-## Goals
+## Learning Goals
 
 - Learn modern C++ syntax and best practices
-- Build confidence in using standard libraries
-- Create reusable examples for future reference
+- Improve understanding of the Standard Library
+- Practice object-oriented and generic programming concepts
+- Build reusable examples for future reference
+- Develop confidence through hands-on projects
 
 ## Getting Started
 
@@ -20,9 +22,31 @@ This repository documents my journey learning C++ and contains code examples, ex
    ```bash
    git clone https://github.com/aarusharyal/CPP.git
    ```
-2. Open the code in your preferred editor
-3. Compile and run the examples with a C++ compiler
+2. Open the project in your preferred editor or IDE
+3. Compile and run the examples with a C++ compiler such as `g++` or `clang++`
+
+Example:
+
+```bash
+g++ examples/hello.cpp -o hello
+./hello
+```
+
+## Current Focus
+
+This repository is intended to track progress across topics such as:
+
+- Variables, loops, and control flow
+- Functions and modular design
+- Classes and object-oriented programming
+- Pointers, references, and memory management
+- STL containers and algorithms
+- File handling and debugging techniques
+
+## Notes
+
+Each folder is meant to serve as a practical reference for learning and improving C++ skills over time.
 
 ## Contact
 
-For questions or suggestions, open an issue on the repository.
+For questions, suggestions, or feedback, open an issue in the repository.
